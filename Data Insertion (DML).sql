@@ -1,5 +1,5 @@
 -- ============================================================
--- STEP 3: SAMPLE DATA INSERTION (DML)
+--  SAMPLE DATA INSERTION (DML)
 -- ============================================================
 
 INSERT INTO Departments (department_name, floor_no) VALUES

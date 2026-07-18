@@ -3,13 +3,13 @@
 -- Author  : Ruturaj
 -- Purpose : Data Science / Data Analytics projet
 -- ============================================================
--- STEP 1: DATABASE CREATION
+-- DATABASE CREATION
 -- ===========================================================
 CREATE DATABASE Hospital_Database_Management;
 USE Hospital_Database_Management;
 
 -- ============================================================
--- STEP 2: TABLE CREATION (DDL)
+-- TABLE CREATION (DDL)
 -- Entities: Departments, Doctors, Patients, Rooms, Appointments,
 --           Admissions, Medicines, Prescriptions, Billing
 -- ============================================================
@@ -102,3 +102,6 @@ CREATE TABLE Billing (
     FOREIGN KEY (admission_id) REFERENCES Admissions(admission_id),
     FOREIGN KEY (appointment_id) REFERENCES Appointments(appointment_id)
 );
+
+show databases;
+

@@ -1,5 +1,5 @@
 -- ============================================================
--- STEP 4: BASIC RETRIEVAL / UPDATE / DELETE QUERIES
+-- BASIC RETRIEVAL / UPDATE / DELETE QUERIES
 -- ============================================================
 
 -- View all patients
